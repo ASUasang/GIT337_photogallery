@@ -65,6 +65,11 @@ figure img {
 
 }
 
+#info {
+  padding-top: 20px;
+  color:#ffffff
+}
+
 address label + input {
   text-align: top;
 }
