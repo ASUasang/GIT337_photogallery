@@ -46,12 +46,14 @@ p {
   padding: 10px;
   font-size: 1.25em;
 }
+
 #contact {
   display: grid;
   background-color: #000000;
   color: #ffffff;
   grid-template-columns: 1fr;
 }
+
 footer {
   background-color: #000000;
 }
