@@ -25,6 +25,7 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   font-size: 1.5em;
   font-weight: bold;
   padding: 2px;
@@ -56,11 +57,14 @@ p {
   font-size: 1.25em;
 }
 
-#contact {
-  display: grid;
-  background-color: #000000;
-  color: #ffffff;
-  grid-template-columns: 1fr;
+input {
+  width: 450px;
+  color: #007d7b;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 5px;
+  margin: 10px;
 }
 
 footer {
