@@ -79,7 +79,7 @@ label  {
   display: inline-block;
 }
 
-address input {
+input {
   width: 320px;
   color: #007d7b;
   font-weight: bold;
@@ -116,17 +116,26 @@ footer small {
   text-align: center;
 }
 @media screen and (min-width:880px) {
-  body {
+  #gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   nav {
     justify-content: center;
   }
+
+  input {
+    width: 520px;
+  }
+
+  button {
+    width: 500px;
+  }
 }
 
 @media screen and (min-width: 1300px) {
-  body {
+  #gallery {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   nav {
