@@ -57,7 +57,9 @@ figure img {
 }
 
 figure figcaption {
-  position: relative;
+  position: absolute;
+  
+
 
 }
 
