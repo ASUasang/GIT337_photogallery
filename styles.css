@@ -51,8 +51,9 @@ p {
 }
 
 figure img {
-  max-width: 110%;
+  max-width: 100%;
   height: auto !important;
+  padding: 5px;
 }
 
 #contact {
@@ -62,6 +63,10 @@ figure img {
   min-width: 485px;
   text-align: center;
 
+}
+
+address label + input {
+  text-align: top;
 }
 
 address input {
@@ -97,4 +102,5 @@ footer small {
   font-size: 1em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 20px;
 }
