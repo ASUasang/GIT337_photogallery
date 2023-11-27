@@ -119,7 +119,7 @@ footer small {
   figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-flow: column;
+    grid-area: span 2 / span 6;
   }
   nav {
     justify-content: center;
