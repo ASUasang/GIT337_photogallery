@@ -51,7 +51,7 @@ p {
 }
 
 figure img {
-  max-width: 80%;
+  max-width: 110%;
   height: auto !important;
 }
 
@@ -65,7 +65,7 @@ figure img {
 }
 
 address input {
-  width: 285px;
+  width: 320px;
   color: #007d7b;
   font-weight: bold;
   text-transform: uppercase;
@@ -97,5 +97,4 @@ footer small {
   font-size: 1em;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 70px;
 }
