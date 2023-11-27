@@ -2,7 +2,6 @@ html {
     background-color: #000000;
 }
 body {
-  display: flex;
   width: 90%;
   min-width: 285px;
   max-width: 1000px;
