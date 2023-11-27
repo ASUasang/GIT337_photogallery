@@ -56,6 +56,11 @@ figure img {
   padding: 5px;
 }
 
+figure figcaption {
+  position: relative;
+
+}
+
 #contact {
   color:#ffffff;
   background-color: #000000;
@@ -66,12 +71,12 @@ figure img {
 }
 
 #info {
-  padding-top: 20px;
   color:#ffffff
 }
 
-address label + input {
+label  {
   text-align: top;
+  display: inline-block;
 }
 
 address input {
@@ -108,4 +113,5 @@ footer small {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 20px;
+  text-align: center;
 }
