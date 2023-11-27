@@ -28,7 +28,7 @@ nav a {
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
-  padding: 2px;
+  padding: 2px 2px;
   color: #ffffff;
 }
 
@@ -58,9 +58,8 @@ figure img {
 
 figure figcaption {
   position: absolute;
-  top: 10px;
-
-
+  bottom: 150px;
+  left: 5px;
 }
 
 #contact {
