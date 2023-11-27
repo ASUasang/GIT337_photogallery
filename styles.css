@@ -43,7 +43,7 @@ h2 {
 }
 
 #gallery figure {
-  display: block;
+  padding: 10px;
   min-width: 100px;
   max-width: 900px;
 }
