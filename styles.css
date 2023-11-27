@@ -45,12 +45,6 @@ h2 {
   color: #000000;
 }
 
-#gallery figure {
-  padding: 10px;
-  min-width: 100px;
-  max-width: 900px;
-}
-
 p {
   padding: 10px;
   font-size: 1.25em;
@@ -70,14 +64,15 @@ figure img {
 
 }
 
-input {
-  width: 420px;
+address input {
+  width: 385px;
   color: #007d7b;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1em;
   padding: 5px;
   margin: 10px;
+  font-family: sans-serif;
 }
 
 footer {
@@ -87,10 +82,13 @@ footer {
 button {
   color: #ffffff;
   background-color: #007d7b;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: bold;
   margin: 20px;
-  width: 200px;
+  width: 300px;
+  height: 30px;
+  border-style: none;
+  font-size: 14px;
   
 }
 
