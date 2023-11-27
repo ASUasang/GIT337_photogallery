@@ -116,7 +116,7 @@ footer small {
   text-align: center;
 }
 @media screen and (min-width:880px) {
-  #gallery {
+  figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -134,7 +134,7 @@ footer small {
 }
 
 @media screen and (min-width: 1300px) {
-  #gallery {
+  figure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
