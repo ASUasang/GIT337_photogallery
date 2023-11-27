@@ -43,7 +43,6 @@ h2 {
 }
 
 #gallery figure {
-  width: 80%;
   min-width: 185px;
   max-width: 900px;
 }
