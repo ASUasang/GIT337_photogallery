@@ -42,10 +42,6 @@ h2 {
   color: #000000;
 }
 
-figure {
-  display: flex;
-}
-
 p {
   padding: 10px;
   font-size: 1.25em;
