@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
     background-color: #000000;
 }
@@ -50,13 +53,12 @@ p {
   font-size: 1.25em;
 }
 
-#chile figcaption {
-  position: absolute;
-  bottom: 300px;
-  left: 15px;
-  font-weight: bold;
-  color: #ffffff;
+.image {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
 }
+
 
 figure img {
   max-width: 100%;
@@ -119,10 +121,10 @@ footer small {
   margin-top: 20px;
 }
 @media screen and (min-width:880px) {
-  figure {
-    display: grid;
+  .image {
     grid-template-columns: 1fr 1fr;
-    grid-auto-flow: row;
+    gap: 1rem;
+    
   }
   nav a {
     justify-content: center;
@@ -138,9 +140,9 @@ footer small {
 }
 
 @media screen and (min-width: 1300px) {
-  figure {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .image {
+    grid-template-columns: repeat(1fr);
+    gap: 1rem;
   }
   nav a {
     justify-content: right;
