@@ -54,6 +54,8 @@ p {
   position: relative;
   bottom: 300px;
   left: 15px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 figure img {
