@@ -56,8 +56,9 @@ p {
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 
 .photo figure {
