@@ -51,7 +51,7 @@ p {
 }
 
 #chile figcaption {
-  position: relative;
+  position: absolute;
   bottom: 300px;
   left: 15px;
   font-weight: bold;
@@ -95,6 +95,7 @@ input {
 
 footer {
   background-color: #000000;
+  text-align: center;
 }
 
 button {
@@ -116,7 +117,6 @@ footer small {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 20px;
-  text-align: center;
 }
 @media screen and (min-width:880px) {
   figure {
