@@ -60,16 +60,13 @@ p {
   position: relative;
 }
 
+.photo figure {
+  min-width: 285px;
+}
 
 .photo figcaption {
   text-transform: uppercase;
 
-}
-
-img {
-  width: 80%;
-  height: 80% !important;
-  padding: 5px;
 }
 
 #contact {
