@@ -125,11 +125,6 @@ footer small {
   margin-top: 20px;
 }
 @media screen and (min-width:880px) {
-  .image {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    
-  }
   nav a {
     justify-content: center;
   }
@@ -145,8 +140,7 @@ footer small {
 
 @media screen and (min-width: 1300px) {
   .image {
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    
   }
   nav a {
     justify-content: right;
