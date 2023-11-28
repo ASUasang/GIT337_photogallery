@@ -124,31 +124,3 @@ footer small {
   color: #ffffff;
   margin-top: 20px;
 }
-@media screen and (min-width:880px) {
-  nav a {
-    justify-content: center;
-  }
-
-  input {
-    width: 520px;
-  }
-
-  button {
-    width: 500px;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .image {
-    
-  }
-  nav a {
-    justify-content: right;
-  }
-  input {
-    width: 720px;
-  }
-  button {
-    width: 700px;
-  }
-}
