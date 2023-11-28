@@ -53,7 +53,7 @@ p {
   font-size: 1.25em;
 }
 
-#gallery {
+.container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -63,6 +63,7 @@ p {
 
 .photo figcaption {
   text-transform: uppercase;
+
 }
 
 img {
