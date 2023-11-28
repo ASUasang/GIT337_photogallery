@@ -141,7 +141,7 @@ footer small {
 
 @media screen and (min-width: 1300px) {
   .image {
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 1rem;
   }
   nav a {
